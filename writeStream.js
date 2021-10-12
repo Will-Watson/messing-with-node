@@ -16,4 +16,5 @@ const readStream = fs.createReadStream('./lib/lorem-ipsum.md', 'UTF-8');
 //   writeStream.write(data);
 // });
 
-process.stdin.pipe(writeStream);
+//process.stdin.pipe(writeStream);
+readStream.pipe(writeStream);
