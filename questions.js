@@ -7,10 +7,10 @@ const questions = [
   'Who is your daddy and what does he do? ',
 ];
 
-// collectAnswers(questions, (answers) => {
-//   console.log('Thank you for your answers; ');
-//   console.log(answers);
-//   process.exit();
-// });
+collectAnswers(questions, (answers) => {
+  console.log('Thank you for your answers; ');
+  console.log(answers);
+  process.exit();
+});
 
-collectAnswers(questions);
+// collectAnswers(questions);
