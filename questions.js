@@ -19,5 +19,3 @@ answerEvents.on('complete', (answers) => {
 });
 
 answerEvents.on('complete', () => process.exit());
-
-// collectAnswers(questions);
