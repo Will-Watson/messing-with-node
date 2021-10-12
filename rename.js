@@ -9,5 +9,6 @@ fs.rename('./lib/notes.md', './storage-files/nodes.md', (err) => {
 });
 
 setTimeout(() => {
+  //removes file
   fs.unlinkSync('./lib/william.js');
 }, 4000);
