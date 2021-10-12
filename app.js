@@ -1,3 +1,6 @@
-const name = require('./myModule');
+const counter = require('./myModule');
 
-//onsole.log(name);
+counter.inc();
+counter.inc();
+counter.inc();
+console.log(counter.getCount());
